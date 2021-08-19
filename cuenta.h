@@ -6,13 +6,13 @@ class Cuenta
 {
 private:
     //Atributos
-    string NombreTitular;
+   string NombreTitular;
    int MontoActual;
+    
 public:
-
     Cuenta();
     Cuenta(string NombreTitular,int MontoMontoActual);
-   int ingresar(int valor);
+    int ingresar(int valor);
     int  retirar(int valor);
     void balance();
     int getMonto() const;
